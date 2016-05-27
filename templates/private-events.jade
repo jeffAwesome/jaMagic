@@ -1,0 +1,22 @@
+
+extends layout
+
+block append vars
+  - bodyclass = 'private-events'
+
+block prepend title
+  | #{ page.title + ' - '}
+
+block header
+  h1= page.title
+
+block main-content
+  h2= "Private Parties"
+  p= "Jeff has performed for dinner parties, birthday parties, and other special events"
+  p= "All parties are different, and Jeff will work to help find the perfect solution to make your event memorable for years to come."
+
+  h3= "Close-up Strolling Magic"
+  p= "This is the ideal solution for almost any small to large event. Jeff will circulate throughout the party. Jeff will introduce himself to small groups and perform amazing and miracles magic right before their eyes. Minds will be read, cards will change in an instant. Your guests will be amazed by the world class Magic of Jeff's. This is a fantastic ice breaker to stimulate conversation and to set an enjoyable tone for your event."
+
+block sub-content
+  h4= "This is sub content"
